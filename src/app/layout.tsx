@@ -17,6 +17,10 @@ export const metadata: Metadata = {
   description: "System Engineer • IoT Specialist • Full Stack Developer",
 };
 
+export const viewport = {
+  themeColor: "#151045",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
